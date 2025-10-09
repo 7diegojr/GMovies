@@ -1,7 +1,13 @@
 Abrir o terminal - CRTL + '
 ------------------------------------------------------------------------------
 
-cd GMovie
+- Criar um projeto React Native com Expo:
+npx create-expo-app@latest NomeProjeto --template blank
+npx create-expo-app@latest GMovie --template blank
+
+------------------------------------------------------------------------------
+
+cd GMovies
 
 ------------------------------------------------------------------------------
 
@@ -10,11 +16,11 @@ git config --global user.email dfsntsjunior@gmail.com
 
 ------------------------------------------------------------------------------
 
-- Atualizar os pacotes do Node e adicionar bibliotecas:
+- Atualizar os pacotes do Node:
 npm i
-npx expo install react-dom react-native-web @expo/metro-runtime
-npx expo install @react-native-community/slider
-npx expo install expo-av
+
+------------------------------------------------------------------------------
+- Bibliotecas:
 
 // React Navigation
 npm install @react-navigation/native
@@ -23,25 +29,25 @@ npx expo install react-native-screens react-native-safe-area-context
 npx expo install react-native-gesture-handler
 
 // Tailwind - NativeWind
-npm install NativeWind
+npm install nativewind
 npm install --save-dev tailwindcss@3.3.2
 npx tailwindcss init
 
 // Carousel
-npm i react-native-reanimated-Carousel
+npm i react-native-reanimated-carousel
 npx expo install react-native-reanimated
 
 // React native heroicons
 npm i react-native-heroicons
 
-// Gradiente 
+// Gradiente
 npm i expo-linear-gradient
 
-// Barra de progresso
-npm i react-native-progresso
+// Barra Progresso
+npm i react-native-progress
 
 // Fetch API - Axios
-npm i Axios
+npm i axios
 
 // Criar uma conta no site themoviedb.org
 
@@ -53,18 +59,10 @@ npx expo start --web
 
 ------------------------------------------------------------------------------
 
-- Criar um projeto React Native com Expo:
-npx create-expo-app@latest NomeProjeto --template blank
-npx create-expo-app@latest GMovie --template blank
-
-------------------------------------------------------------------------------
-
-Instalar extensão de pesquisa React -> ES7+ react/redux/react
-
-------------------------------------------------------------------------------
-
 GITHUB:
 2° Commit - Estilização do footer, Image Wrapper e adicionando assets
 pagina 
 
 color highlight
+
+rnf - criar base

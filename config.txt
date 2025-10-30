@@ -49,6 +49,9 @@ npm i react-native-progress
 // Fetch API - Axios
 npm i axios
 
+// Para usar o carrossel com versões mais novas
+npm install react-native-worklets@^0.5.1
+
 
 ------------------------------------------------------------------------------
 - Arquivos:
